@@ -1,0 +1,28 @@
+name: physics
+channels:
+- conda-forge
+dependencies:
+- python=3.7
+- numpy
+- scipy
+- matplotlib
+- pandas
+- seaborn
+- jupyter
+- ipywidgets
+- nbdime
+- pymc3
+- theano
+- arviz
+- emcee
+- corner
+- mkl-service
+- jupyter_nbextensions_configurator
+- scikit-learn
+- scikit-image
+- pip
+- pip:
+  - gpy
+  - gpyopt
+  - tensorflow
+
